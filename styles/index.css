@@ -1,10 +1,10 @@
 .logo {
     font-family: 'Montserrat' , sans-serif;
     font-style: normal; 
-    font-weight: 900;
+    font-weight: bold;
     font-size: 30px; 
-    line-height: 160%;
-    /* or 48px */ 
+    line-height: 48px;
+    /* or 160% */ 
     letter-spacing: -0.02em;
     color: #0A1B32;
     margin-top: 37px;
@@ -55,7 +55,7 @@
     border-radius: 6px;
     font-family: 'Roboto' , sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 16px;
     line-height: 32px;
     /* or 200% */
@@ -65,10 +65,17 @@
     border: none;
 
 }
+ .section {
+    display: inline-block
 
-.section { 
-    display: inline-block;
+}
 
+ .main-pic { 
+        position: absolute;
+        width: 756px;
+        height: 638px;
+        left: 802px;
+        top: 161px;
 }
 
 
